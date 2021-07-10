@@ -1,16 +1,51 @@
-import React from 'react';
-import About from './components/About';
+import React, { useState } from 'react';
 import Nav from './components/Nav';
+import About from './components/About';
+import Gallery from './components/Gallery';
+import ContactForm from './components/Contact';
+import Footer from './components/Footer';
+import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
 
 function App() {
+  const [categories] = useState([
+    {
+      name: 'commercial',
+      description: 'Photos of grocery stores, food trucks, and other commercial projects',
+    },
+    { name: 'portraits', description: 'Portraits of people in my life' },
+    { name: 'food', description: 'Delicious delicacies' },
+    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
+  ]);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
+  const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
-      <Nav></Nav>
+      <Nav
+        categories={categories}
+        setCurrentCategory={setCurrentCategory}
+        currentCategory={currentCategory}
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Nav>
       <main>
-        <About></About>
-      </main >
-    </div >
+        {!contactSelected ? (
+          <>
+
+            <About></About>
+            <Gallery currentCategory={currentCategory}></Gallery>
+            <Portfolio></Portfolio>
+            <Resume></Resume>
+            <Footer></Footer>
+          </>
+        ) : (
+          <ContactForm></ContactForm>
+        )}
+      </main>
+    </div>
   );
 }
 
