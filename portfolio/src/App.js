@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
-import Gallery from './components/Gallery';
+
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
@@ -36,7 +36,7 @@ function App() {
           <>
 
             <About></About>
-            <Gallery currentCategory={currentCategory}></Gallery>
+            {/* <Gallery currentCategory={currentCategory}></Gallery> */}
             <Portfolio></Portfolio>
             <Resume></Resume>
             <Footer></Footer>

@@ -50,12 +50,12 @@ function Resume() {
   return (
     <section>
       <div className="row education">
-        <div className="three columns header-col">
+        <div className="col-md-2">
           <h1><span>Education</span></h1>
         </div>
-        <div className="nine columns main-col">
+        <div className="col-md-10">
           <div className="row item">
-            <div className="twelve columns">
+            <div className="col-md-12">
               {education}
             </div>
           </div>
@@ -63,12 +63,11 @@ function Resume() {
       </div>
 
       <div className="row work">
-
-        <div className="three columns header-col">
+        <div className="col-md-2">
           <h1><span>Work Experience</span></h1>
         </div>
 
-        <div className="nine columns main-col">
+        <div className="col-md-10">
           {work}
         </div>
       </div>
