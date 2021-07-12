@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c876a1d5.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.3fdba17a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3fdba17a.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.1d992053.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.1d992053.js.map",
+    "static/js/2.ae406b3f.chunk.js": "/react-portfolio/static/js/2.ae406b3f.chunk.js",
+    "static/js/2.ae406b3f.chunk.js.map": "/react-portfolio/static/js/2.ae406b3f.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.777fe348917687b433356fa6dabd3abd.js": "/react-portfolio/precache-manifest.777fe348917687b433356fa6dabd3abd.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.c876a1d5.chunk.css.map": "/react-portfolio/static/css/main.c876a1d5.chunk.css.map",
+    "static/js/2.ae406b3f.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.ae406b3f.chunk.js.LICENSE.txt",
+    "static/media/Justin_Puzey.png": "/react-portfolio/static/media/Justin_Puzey.8a3310a8.png",
+    "static/media/date-nite.png": "/react-portfolio/static/media/date-nite.301f2e9a.png",
+    "static/media/overflow.png": "/react-portfolio/static/media/overflow.11a6f0a6.png",
+    "static/media/run-buddy.png": "/react-portfolio/static/media/run-buddy.de7649eb.png",
+    "static/media/water-ways.png": "/react-portfolio/static/media/water-ways.2fb38afe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d992053.js",
+    "static/js/2.ae406b3f.chunk.js",
+    "static/css/main.c876a1d5.chunk.css",
+    "static/js/main.3fdba17a.chunk.js"
+  ]
+}
