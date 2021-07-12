@@ -30,11 +30,23 @@ function Nav(props) {
             </a>
           </li>
 
+          <li className="mx-2">
+            <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}>
+              Portfolio
+            </a>
+          </li>
+
+          <li className="mx-2">
+            <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
+              Resume
+            </a>
+          </li>
+
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
 
-          {categories.map((category) => (
+          {/* {categories.map((category) => (
             <li
               className={`mx-1 ${currentCategory.name === category.name && !contactSelected && 'navActive'
                 }`}
@@ -49,7 +61,7 @@ function Nav(props) {
                 {capitalizeFirstLetter(category.name)}
               </span>
             </li>
-          ))}
+          ))} */}
         </ul>
       </nav>
     </header>

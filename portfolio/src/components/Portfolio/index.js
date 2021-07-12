@@ -93,7 +93,7 @@ function Portfolio() {
 
         <div className="">
 
-          <h1>PROJECTS</h1>
+          <h1 id="portfolio">PORTFOLIO</h1>
 
           <div id="portfolio-wrapper" className="container" style={{ width: "100%" }}>
             <div class="row mb-2" style={{ width: "100%" }}>

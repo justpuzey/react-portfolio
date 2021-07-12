@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../../assets/cover/Justin_Puzey.png';
+import Image from '../../assets/images/Justin_Puzey.png';
 function About() {
   return (
     <section className="my-5">

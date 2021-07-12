@@ -49,9 +49,10 @@ let work = data.experience.map(function (work) {
 function Resume() {
   return (
     <section>
-      <div className="row education">
+      <h1 id="resume">RESUME</h1>
+      <div className="row resume">
         <div className="col-md-2">
-          <h1><span>Education</span></h1>
+          <h2 id="resumes"><span>Education</span></h2>
         </div>
         <div className="col-md-10">
           <div className="row item">
@@ -64,7 +65,7 @@ function Resume() {
 
       <div className="row work">
         <div className="col-md-2">
-          <h1><span>Work Experience</span></h1>
+          <h2><span>Work Experience</span></h2>
         </div>
 
         <div className="col-md-10">
