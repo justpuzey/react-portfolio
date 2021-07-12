@@ -52,7 +52,7 @@ function Resume() {
       <h1 id="resume">RESUME</h1>
       <div className="row resume">
         <div className="col-md-2">
-          <h2 id="resumes"><span>Education</span></h2>
+          <h2><span>Education</span></h2>
         </div>
         <div className="col-md-10">
           <div className="row item">
